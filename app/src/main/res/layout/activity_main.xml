@@ -8,13 +8,13 @@
     android:layout_height="match_parent"
     android:padding="3dp"
     tools:context=".MainActivity"
-    android:background = "@color/Primary40">
+    android:background = "@color/Primary10">
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#6750A4"
+        android:background="@color/Primary10"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:tabTextColor="#fff"

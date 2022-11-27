@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.os.Handler;
+import android.view.MotionEvent;
+import android.widget.Toast;
+
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,5 +49,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         });
+
     }
+
+
 }
