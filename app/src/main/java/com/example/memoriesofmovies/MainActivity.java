@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = findViewById(R.id.tab_layout);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Fragment1"));
-        tabLayout.addTab(tabLayout.newTab().setText("Fragment2"));
-        tabLayout.addTab(tabLayout.newTab().setText("Fragment3"));
+        tabLayout.addTab(tabLayout.newTab().setText("리뷰 작성"));
+        tabLayout.addTab(tabLayout.newTab().setText("나의 리뷰"));
+        tabLayout.addTab(tabLayout.newTab().setText("일정"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 

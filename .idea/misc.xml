@@ -7,9 +7,9 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/firstscreen.xml" value="0.307518115942029" />
-        <entry key="app/src/main/res/layout/tab_fragment_1.xml" value="0.30625" />
-        <entry key="app/src/main/res/layout/tab_fragment_2.xml" value="0.307518115942029" />
-        <entry key="app/src/main/res/layout/tab_fragment_3.xml" value="0.307518115942029" />
+        <entry key="app/src/main/res/layout/tab_fragment_1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/tab_fragment_2.xml" value="0.2543014526367187" />
+        <entry key="app/src/main/res/layout/tab_fragment_3.xml" value="0.1" />
       </map>
     </option>
   </component>

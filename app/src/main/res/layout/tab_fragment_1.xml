@@ -6,14 +6,51 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:padding="15dp">
+
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text = "2"/>
+            android:ems="10"
+            android:text = "영화 제목"/>
         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "날짜 선택"
+            android:onClick="btn_Click"/>
+        <RatingBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text = "변경"/>
+            android:stepSize="0.5"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_box"
+            android:layout_weight="30"
+            android:padding = "10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="저장"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
     </LinearLayout>
 </FrameLayout>

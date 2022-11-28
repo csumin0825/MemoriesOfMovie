@@ -7,6 +7,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -53,6 +57,12 @@ public class TabFragment_3 extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+//        ListView listView = findViewById(R.id.scheduleList);
+//        List<String> list = new ArrayList<>();
+//        list.add("사과");
+//        list.add("배");
+//        list.add("딸기");
+//        list.add("감자");
     }
 
     @Override
